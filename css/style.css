@@ -1,0 +1,12 @@
+form{
+    float: right;
+    right: -350px;
+}
+#gif-view{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+img{
+    margin: 15px;
+}
