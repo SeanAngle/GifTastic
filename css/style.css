@@ -1,6 +1,6 @@
-form{
+#formContainer{
     float: right;
-    right: -350px;
+    margin-right: 300px;
 }
 #gif-view{
     display: flex;
@@ -9,4 +9,32 @@ form{
 }
 img{
     margin: 15px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+label{
+    font-size: 20px;
+}
+.addNow{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+.addNow1:hover {
+    font-size: 20px;
+    background-color: white;
+    color: green;
+    
+}
+#buttons-view{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
 }

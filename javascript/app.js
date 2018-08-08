@@ -88,7 +88,7 @@ function renderButtons() {
 
 
 // This function handles events where the add movie button is clicked
-$("#add-sport").on("click", function(event) {
+$(".addNow").on("click", function(event) {
     event.preventDefault();
     // This line of code will grab the input from the textbox
     var sport = $("#sport-input").val().trim();
